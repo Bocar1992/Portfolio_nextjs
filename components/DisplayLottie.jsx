@@ -8,6 +8,7 @@ const GreetingLottie = ({ animationPath }) => {
 		path: animationPath,
 	};
 
+	
 	return (
 		<div onClick={() => null}>
 			<Lottie options={defaultOptions} />
